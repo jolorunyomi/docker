@@ -13,7 +13,7 @@ Map matrix_axes = [
     RAPIDS_VER: ['21.08', '21.10'],
     BUILD_IMAGE: ['rapidsai/rapidsai', 'rapidsai/rapidsai-nightly', 'rapidsai/rapidsai-clx', 'rapidsai/rapidsai-clx-nightly', 'rapidsai/rapidsai-clx-dev', 'rapidsai/rapidsai-clx-dev-nightly', 'rapidsai/rapidsai-core', 'rapidsai/rapidsai-core-nightly', 'rapidsai/rapidsai-core-dev', 'rapidsai/rapidsai-core-dev-nightly', 'rapidsai/rapidsai-dev', 'rapidsai/rapidsai-dev-nightly'],
     FROM_IMAGE: ['rapidsai/rapidsai-core-nightly', 'rapidsai/rapidsai-nightly', 'rapidsai/rapidsai-dev-nightly', 'gpuci/rapidsai','rapidsai/rapidsai-core-dev-nightly'],
-    UCX_PY_VER: ['0.21']
+    UCX_PY_VER: ['0.21'],
     exclude: [
         RAPIDS_VER: ['21.10'],
         BUILD_IMAGE: ['rapidsai/rapidsai-clx', 'rapidsai/rapidsai-clx-dev', 'rapidsai/rapidsai-core', 'rapidsai/rapidsai-core-dev', 'rapidsai/rapidsai-dev'],
