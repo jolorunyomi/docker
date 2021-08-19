@@ -16,7 +16,7 @@ Map matrix_axes = [
     UCX_PY_VER: ['0.21']
     exclude: [
         RAPIDS_VER: ['21.10'],
-        BUILD_IMAGE ['rapidsai/rapidsai-clx', 'rapidsai/rapidsai-clx-dev', 'rapidsai/rapidsai-core', 'rapidsai/rapidsai-core-dev', 'rapidsai/rapidsai-dev'],
+        BUILD_IMAGE: ['rapidsai/rapidsai-clx', 'rapidsai/rapidsai-clx-dev', 'rapidsai/rapidsai-core', 'rapidsai/rapidsai-core-dev', 'rapidsai/rapidsai-dev'],
 
     ]
 ]
