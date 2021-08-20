@@ -9,9 +9,10 @@
 Map matrix_axes = [
     CUDA_VER: ['11.0', '11.2'],
     LINUX_VER: ['ubuntu18.04', 'ubuntu20.04', 'centos7', 'centos8'],
-    PYTHON_VER: ['3.7', 3.8],
+    PYTHON_VER: ['3.7', '3.8'],
     IMAGE_TYPE: ['base', 'runtime', 'devel'],
     RAPIDS_VER: ['21.08', '21.10'],
+    BUILD_IMAGE: ['rapidsai/rapidsai', 'rapidsai/rapidsai-nightly', 'rapidsai/rapidsai-clx', 'rapidsai/rapidsai-clx-nightly']
 ]
 
 // Map matrix_axes = [
