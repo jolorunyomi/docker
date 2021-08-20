@@ -8,10 +8,10 @@
 
 Map matrix_axes = [
     CUDA_VER: ['11.0', '11.2'],
-    LINUX_VER: ['ubuntu18.04'],
-    PYTHON_VER: ['3.7'],
-    IMAGE_TYPE: ['base'],
-    RAPIDS_VER: ['21.08'],
+    LINUX_VER: ['ubuntu18.04', 'ubuntu20.04', 'centos7', 'centos8'],
+    PYTHON_VER: ['3.7', 3.8],
+    IMAGE_TYPE: ['base', 'runtime', 'devel'],
+    RAPIDS_VER: ['21.08', '21.10'],
 ]
 
 // Map matrix_axes = [
